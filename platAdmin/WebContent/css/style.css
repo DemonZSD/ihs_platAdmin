@@ -1,0 +1,173 @@
+@charset "utf-8";
+body{
+	font-family: "微软雅黑", arial, sans-serif;
+ 	font-size: 14px;
+	color: #535664;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+	margin:0 auto;
+	padding: 0;
+}
+.header table{
+	width:100%;
+}
+.header{
+	text-align:center;
+	height: 110px;
+	width:100%;
+	z-index: 2;
+	background: #EFF5FE url('../images/headbg2.png') repeat-x;
+}
+.header img{
+	border:0;
+	margin-top:10px;
+}
+.header span{
+	font-weight:bold;
+	font-size: 28px;
+	text-shadow:2px 2px 2px #FFF;
+}
+.header .header_info{
+	margin-top:40px;
+	font-weight:bold;
+	
+	folat:right;
+}
+.wel h3{
+	
+	margin-top:20px;
+	border-bottom: 1px dashed gray;
+	
+}
+.wel_table{
+	position:relative;
+	top:80px;
+	margin:0 auto;
+}
+.state{
+	position: relative;
+	top:300px;
+}
+.wel_center{
+	margin:0 auto;
+	margin-top:50px;
+	border-radius: 8px;
+	width:850px;
+	height:400px;
+	border:1px solid gray;
+	box-shadow: 10px 10px 5px #888888;
+	text-align: center;
+}
+.wel_tt .wel_td1,.wel_td2{
+	width:200px;
+	height:20px;
+}
+.wel_tt .wel_td1{
+	text-align: right;
+}
+.wel_tt .wel_td2{
+	text-align: left;
+	color:#FF9218;
+}
+.footer{
+	text-align:center;
+	height: 25px;
+	width:100%;
+	background-color: #189FF1;
+	clear: both;
+}
+.navi{
+	position:relative;
+	width:16%;
+	float: left;
+	height:600px;
+}
+.loginbg{
+	width:100%;
+	background: url(../images/user_all_bg.gif) #226cc5 repeat-x 50% top;
+}
+.login{
+	width:1024px;
+	height:768px;
+	background: url(../images/767611.png) no-repeat top;
+}
+.contain{
+	text-align:center;
+	position:relative;
+	width:84%;
+	float: right;
+	height:500px;
+}
+ul,li{list-style-type:none;}
+a {color:#00007F;text-decoration:none;}
+a:hover {color:#189FF1;text-decoration:underline;}
+.box {
+width: 100%;
+heigth:300px;
+text-align: center;
+font-size: 18px;
+}
+.accordion1{
+width:99%;
+overflow:hidden;
+font-size: 16px;
+}
+
+.logininfo{
+	position:absolute;
+	width: 100%;
+	height:200px;
+	text-align: center;
+	bottom: 70px;
+}
+.logininfo tr{
+	height:30px;
+}
+.wel1{
+	margin-top: 40px;
+}
+
+.logintext{
+	text-align: center;
+	top: 220px;
+	position: relative;
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 290px;
+	height: 100px;
+	padding: 60px 55px 20px 55px;
+}
+
+.logintext div{
+	margin-top: 30px;
+}
+.lg_sub input{
+	margin-top:10px;
+	width:50px;
+	height:30px;
+	border-radius:3px;
+	border:1px gray;
+}
+.ur,.pw{
+	width:140px;
+	height:25px;
+	border-radius: 4px;
+	border:1;
+	border-color: #EEEEF1;
+}
+.log_msg{
+	height:140px;
+}
+.title{
+	font-size:16px;
+	width:80%;
+	text-align:left;
+	margin-top:50px;
+	margin-bottom:40px;
+	border-bottom: 1px solid gray;
+}
+.news_info{
+	padding-left:50px;
+	margin-bottom: 50px;
+}

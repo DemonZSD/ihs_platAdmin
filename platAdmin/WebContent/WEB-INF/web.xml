@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>platAdmin</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>JsonServiceServlet</display-name>
+    <servlet-name>JsonServiceServlet</servlet-name>
+    <servlet-class>edu.ahu.hs.platAppoint.servlet.JsonServiceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JsonServiceServlet</servlet-name>
+    <url-pattern>/JsonServiceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminLoginServlet</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>edu.ahu.hs.platAppoint.servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TimeClServlet</display-name>
+    <servlet-name>TimeClServlet</servlet-name>
+    <servlet-class>edu.ahu.hs.platAppoint.servlet.TimeClServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TimeClServlet</servlet-name>
+    <url-pattern>/TimeClServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <description></description>
+    <display-name>NewsServlet</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>edu.ahu.hs.platAppoint.servlet.NewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/NewsServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
